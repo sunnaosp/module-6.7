@@ -1,5 +1,100 @@
 {
   "_cts": {
-    "front-page-banner": {}
+    "front-page-banner": {},
+    "reynir-test": {}
+  },
+  "slices": {
+    "TextImageRight": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "text_image_right",
+        "items": [],
+        "primary": {
+          "textField": [
+            {
+              "type": "heading1",
+              "text": "Reintermediate clicks-and-mortar systems",
+              "spans": []
+            },
+            {
+              "type": "heading1",
+              "text": "Deploy strategic ROI",
+              "spans": []
+            }
+          ],
+          "image": {
+            "50": {
+              "dimensions": {
+                "width": 50,
+                "height": 50
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=50&h=50&fit=crop"
+            },
+            "dimensions": {
+              "width": 100,
+              "height": 100
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=100&h=100&fit=crop"
+          },
+          "bool": true
+        }
+      },
+      {
+        "variation": "textimageLeft",
+        "name": "TextimageLeft",
+        "slice_type": "text_image_right",
+        "items": [],
+        "primary": {
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+          },
+          "titleField": [
+            {
+              "type": "paragraph",
+              "text": "Qui esse eiusmod consequat.",
+              "spans": []
+            }
+          ]
+        }
+      },
+      {
+        "variation": "titleImage",
+        "name": "TitleImage",
+        "slice_type": "text_image_right",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading2",
+              "text": "Target B2B applications",
+              "spans": []
+            }
+          ],
+          "image": {
+            "dimensions": {
+              "width": 100,
+              "height": 100
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?w=100&h=100&fit=crop"
+          }
+        }
+      }
+    ]
+  },
+  "my-second-slice-lib": {
+    "Test": {}
   }
 }

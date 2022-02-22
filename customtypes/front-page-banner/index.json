@@ -20,6 +20,36 @@
           "placeholder": ""
         },
         "type": "Date"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "text_image_right": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "tryggvi": {
+      "geo-point": {
+        "config": {
+          "label": "geo-point"
+        },
+        "type": "GeoPoint"
+      },
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "text_image_right": {
+              "type": "SharedSlice"
+            }
+          }
+        }
       }
     }
   }

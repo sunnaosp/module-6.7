@@ -1,5 +1,5 @@
 {
-  "apiEndpoint": "https://sunna-module6-7.prismic.io/api/v2",
+  "apiEndpoint": "https://sunna-module6-7.cdn.prismic.io/api/v2",
   "libraries": ["@/slices"],
   "_latest": "0.1.0",
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"

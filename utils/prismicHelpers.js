@@ -33,7 +33,7 @@ const createClientOptions = (
   const accessTokenOption = prismicAccessToken
     ? { accessToken: prismicAccessToken }
     : {};
-  const routesOption = routes ? { routes: routeResolver.routes } : {};
+  const routesOption = {}; //routes ? { routes: routeResolver.routes } : {};
   return {
     ...reqOption,
     ...accessTokenOption,

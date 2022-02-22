@@ -1,5 +1,5 @@
 // -- Prismic Repo Name
-export const repoName = "sunna-module-6-7";
+export const repoName = "sunna-module6-7";
 
 // -- Prismic API endpoint
 // Determines which repository to query and fetch data from

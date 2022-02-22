@@ -1,5 +1,228 @@
 {
   "slices": {
-    "components": {}
+    "components": {
+      "text_image_right": {
+        "library": "slices",
+        "id": "text_image_right",
+        "name": "TextImageRight",
+        "description": "TextImageRight",
+        "model": {
+          "id": "text_image_right",
+          "type": "SharedSlice",
+          "name": "TextImageRight",
+          "description": "TextImageRight",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextImageRight",
+              "primary": {
+                "textField": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "textField",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {
+                      "width": 100,
+                      "height": 100
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "50",
+                        "width": 50,
+                        "height": 50
+                      }
+                    ]
+                  },
+                  "type": "Image"
+                },
+                "bool": {
+                  "config": {
+                    "label": "bool",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  },
+                  "type": "Boolean"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "textimageLeft",
+              "name": "TextimageLeft",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextImageRight",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "titleField": {
+                  "config": {
+                    "label": "titleField",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "titleImage",
+              "name": "TitleImage",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextImageRight",
+              "primary": {
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  },
+                  "type": "StructuredText"
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {
+                      "width": 100,
+                      "height": 100
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "text_image_right",
+            "items": [],
+            "primary": {
+              "textField": [
+                {
+                  "type": "heading1",
+                  "text": "Deploy bricks-and-clicks experiences",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "50": {
+                  "dimensions": {
+                    "width": 50,
+                    "height": 50
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=50&h=50&fit=crop"
+                },
+                "dimensions": {
+                  "width": 100,
+                  "height": 100
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=100&h=100&fit=crop"
+              },
+              "bool": false
+            }
+          },
+          "textimageLeft": {
+            "variation": "textimageLeft",
+            "name": "TextimageLeft",
+            "slice_type": "text_image_right",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+              },
+              "titleField": [
+                {
+                  "type": "paragraph",
+                  "text": "Consequat consectetur consequat laborum ut aliqua. Esse officia aliquip pariatur ut non ullamco ex veniam do qui officia. Enim qui ut excepteur aliquip id occaecat incididunt sint laborum eiusmod anim velit.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "titleImage": {
+            "variation": "titleImage",
+            "name": "TitleImage",
+            "slice_type": "text_image_right",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Reinvent synergistic infrastructures",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 100,
+                  "height": 100
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=100&h=100&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\reyni\\Desktop\\Vefskoli\\Verkefni6\\module6.7\\sunna-module6.7\\.slicemachine\\assets\\slices\\TextImageRight\\default-slice\\preview.png",
+            "width": 800,
+            "height": 73
+          },
+          "textimageLeft": {
+            "path": "C:\\Users\\reyni\\Desktop\\Vefskoli\\Verkefni6\\module6.7\\sunna-module6.7\\.slicemachine\\assets\\slices\\TextImageRight\\textimageLeft\\preview.png",
+            "width": 800,
+            "height": 73
+          },
+          "titleImage": {
+            "path": "C:\\Users\\reyni\\Desktop\\Vefskoli\\Verkefni6\\module6.7\\sunna-module6.7\\.slicemachine\\assets\\slices\\TextImageRight\\titleImage\\preview.png",
+            "width": 800,
+            "height": 73
+          }
+        }
+      }
+    }
   }
 }

@@ -1,15 +1,19 @@
 {
-  "id": "4d18c5c6-b7e5-49a0-acf6-dbc5fbe9c676",
-  "uid": "et-reprehenderit-enim",
+  "id": "8daf1826-d3a3-4df1-9d31-56cdc4a77433",
+  "uid": "quia-cum-velit",
   "type": "front-page-banner",
   "data": {
     "texti": [
       {
         "type": "paragraph",
-        "text": "Commodo nulla voluptate dolor officia magna aliquip excepteur elit cupidatat exercitation amet.",
+        "text": "Dolore eu sit amet. Id excepteur non tempor consequat in eu deserunt adipisicing ullamco do velit occaecat.",
         "spans": []
       }
     ],
-    "dagsetning": "2020-02-16"
+    "dagsetning": "2019-05-28",
+    "geo-point": {
+      "latitude": 48.8841267,
+      "longitude": 2.3300579
+    }
   }
 }
