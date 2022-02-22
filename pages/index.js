@@ -29,11 +29,11 @@ export default function Home({ projects }) {
             {projects.results.map((project, index) => (
               <div className="mb-10 bg-sky-400" key={project.uid}>
                 project
-                <Link href={`projects/${project.uid}`}>
+                <h1 href={`projects/${project.uid}`}>
                   <h1 className="bold text-3xl text-blue-600 cursor-pointer">
                     {RichText.render(project.data.title)}
                   </h1>
-                </Link>
+                </h1>
                 <img className="w-2/3" src={project.data.image.url} alt="img" />
                 <h1 className="mt-5">
                   {" "}
