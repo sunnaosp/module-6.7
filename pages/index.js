@@ -21,7 +21,7 @@ export default function Home({ projects }) {
       <Layout>
         <h1 className=" text-2xl uppercase font-bold opacity-50 my-10 ml-24">
           {" "}
-          See what's happening around the world
+          See whats happening around the world
         </h1>
 
         <div className="flex">
